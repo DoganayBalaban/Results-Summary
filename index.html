@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main-card">
+      <div id="score-card">
+        <h3 id="your-result">Your Result</h3>
+        <div id="circle">
+          <h1 id="big">76</h1>
+          <p id="score">of 100</p>
+        </div>
+        <h2 id="white">Great</h2>
+        <p>
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div id="summary">
+        <h3>Summary</h3>
+        <ul id="score-list">
+          <li id="r">
+            <div class="score-box r">
+              <img src="assets/images/icon-reaction.svg" alt="icon-reaction" />
+              <p id="list-name-red">Reaction</p>
+              <p class="score-tier"><span class="score-span">80</span> / 100</p>
+            </div>
+          </li>
+          <li id="m">
+            <div class="score-box m">
+              <img src="assets/images/icon-memory.svg" alt="icon-mem" />
+              <p id="list-name-yellow">Memory</p>
+              <p class="score-tier"><span class="score-span">92</span> / 100</p>
+            </div>
+          </li>
+          <li id="verbal">
+            <div class="score-box ver">
+              <img src="assets/images/icon-verbal.svg" alt="icon-ver" />
+              <p id="list-name-green">Verbal</p>
+              <p class="score-tier"><span class="score-span">61</span> / 100</p>
+            </div>
+          </li>
+          <li id="visual">
+            <div class="score-box vis">
+              <img src="assets/images/icon-visual.svg" alt="icon-vis" />
+              <p id="list-name-purple">Visual</p>
+              <p class="score-tier"><span class="score-span">72</span> / 100</p>
+            </div>
+          </li>
+        </ul>
+        <button id="btn" type="submit">Continue</button>
+      </div>
+    </div>
+  </body>
+</html>
